@@ -2,7 +2,6 @@ const contFlex = document.getElementById("cont-flex")
 
 for (i = 1; i <= 100; i++) {
     if (((i % 3) == 0) && ((i % 5) == 0)) {
-        console.log("fizzbuzz")
         const fizzBuzz = document.createElement("div")
         fizzBuzz.append(i)
         fizzBuzz.classList.add("square")
@@ -13,7 +12,6 @@ for (i = 1; i <= 100; i++) {
         
     }
     else if ((i % 5) == 0) {
-        console.log("buzz")
         const fizzBuzz = document.createElement("div")
         fizzBuzz.append(i)
         fizzBuzz.classList.add("square")
@@ -23,7 +21,6 @@ for (i = 1; i <= 100; i++) {
         contFlex.append(fizzBuzz)
     }
     else if ((i % 3) == 0) {
-        console.log("fizz")
         const fizzBuzz = document.createElement("div")
         fizzBuzz.append(i)
         fizzBuzz.classList.add("square")
@@ -33,7 +30,6 @@ for (i = 1; i <= 100; i++) {
         contFlex.append(fizzBuzz)
     }
     else {
-        console.log(i)
         const fizzBuzz = document.createElement("div")
         fizzBuzz.append(i)
         fizzBuzz.classList.add("square")
